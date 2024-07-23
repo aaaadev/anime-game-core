@@ -42,11 +42,11 @@ impl GameEdition {
         match self {
             GameEdition::Global => &[
                 concat!("log-upload-os.", "ho", "yo", "ver", "se.com"),
-                concat!("sg-public-data-api.ho", "yo", "ver", "se.com")
+            //    concat!("sg-public-data-api.ho", "yo", "ver", "se.com")
             ],
             GameEdition::China => &[
                 concat!("log-upload.m", "iho", "yo.com"),
-                concat!("public-data-api.m", "iho", "yo.com")
+            //    concat!("public-data-api.m", "iho", "yo.com")
             ]
         }
     }
